@@ -28,7 +28,7 @@ const props = defineProps(['numAInput', 'signChange', 'numBInput', 'verificaCalc
         </div>
         <div class="product-div">
             <p v-if="props.verificaCalc">{{ props.numA }} {{ props.sign }} {{ props.numB }} = {{ props.calcular }}</p>
-            <p v-else>Realize uma conta! <span class="instructions-disclaimer">* São necessários dois dígitos e um operador.</span></p>
+            <p v-else>Faça sua conta aqui.<span class="instructions-disclaimer">* Insira um operador e dois digitos.</span></p>
         </div>
     </div>
 </template>
