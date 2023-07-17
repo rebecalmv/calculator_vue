@@ -2,8 +2,7 @@
     <header class="header">
         <div class="container">
             <img class="header__icon d-block w-100" src="https://www.svgrepo.com/show/501484/calculator.svg" alt="">
-            <h1 class="header__title">Bem vindo a CalculaOnline!</h1>
-            <p class="header__note">* Realizamos apenas operações aritméticas básicas.</p>
+            <h1 class="header__title">Calculadora Aritmética</h1>
         </div>
     </header>
 </template>
